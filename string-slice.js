@@ -1,12 +1,14 @@
-const lyrics = 'hush little baby dont you cry. everything gonna be alright'
+//slice will cut out a certain part from a string
+const lyrics = 'hush little baby dont you cry. everything gonna be alright';
 
-//split will devide the string with the given keyword/criteria in split parameter
-const gapwise = lyrics.split(' ');
-console.log('string will be devided with space:::', gapwise);
+//slice have to need start index and ending index
+const parts = lyrics.slice(3, 9);
+console.log(parts);
 
-const dotwise = lyrics.split('.');
-console.log('string will be devided by .:: ', dotwise);
+const parts2 = lyrics.substring(3, 9);
+console.log(parts2);
 
-const charswise = lyrics.split('');
-console.log('string wil divide character wise::', charswise);
-
+//join
+const lines = ['hush little baby dont you cry.', 'everything gonna be alright'];
+const newLines = lines.join(':');
+console.log(newLines);
