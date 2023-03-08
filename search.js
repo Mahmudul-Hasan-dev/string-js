@@ -40,6 +40,7 @@ console.log('started with hush', lyrics.startsWith('hush'));
 //endswith will chcek if the string/ file have ended with the word,it is used for checking file extension
 
 console.log('ended with my', lyrics.endsWith('my'));
+
 //another example
 const filename = 'mypic.png';
 console.log('ended with .png', filename.endsWith('.png'));
